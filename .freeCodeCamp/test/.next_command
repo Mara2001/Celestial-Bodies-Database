@@ -32,3 +32,12 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 psql --username=freecodecamp --dbname=postgres
 psql --username=freecodecamp --dbname=postgres
 psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+git remote add origin https://github.com/Mara2001/Celestial-Bodies-Database.git
+git branch -M main
+git push -u origin main
+git remote add origin https://github.com/Mara2001/Celestial-Bodies-Database.git
+git remote set-url origin https://github.com/Mara2001/Celestial-Bodies-Database.git
+git push -u origin main
+ls --color=auto
+git add .
